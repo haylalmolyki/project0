@@ -1,0 +1,19 @@
+%message{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.section3 {
+          @extend %message;
+  background-color: green; }
+
+.section4 {
+  @extend %message;
+  background-color: orange; }
+
+.section5 {
+  @extend %message;
+  background-color: red; }
